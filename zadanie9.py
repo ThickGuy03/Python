@@ -1,12 +1,11 @@
 import cmath
-from cmath import *
-from math import *
+import math
 print("Wprowadź liczbe zespoloną")
 z=complex(input())
+print(abs(z),cmath.phase(z))
 a=z.real/abs(z)
 q=z.imag/abs(z)
+print(math.degrees(math.pi/6))
 print("moduł z liczby "+str(z) +" = "+ str(abs(z)))
-print(degrees((cos(a)*2*pi)/360))
-p=abs(z)*(cos(z)+sin(z))
-print(p)
+print(abs(z)*(math.cos(z)+math.sin(z)))
 print(z.conjugate())
