@@ -1,6 +1,8 @@
 import cmath 
 from cmath import cos,sin
-z=complex(input())
+z=1j
 a=z.imag
 b=z.real
-print(bool(sin(b)**2+cos(a)**2==1))
+q=int((sin(z)**2+cos(z)**2).real)
+print(q)
+print(bool(q==1))
