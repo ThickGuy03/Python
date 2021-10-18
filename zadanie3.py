@@ -1,6 +1,4 @@
-import math
-a=int(input())
-b=int(input())
-c=int(input())
-P=1/2*a*b*math.sin(c)
-print(P)
+a=input()
+nowy_tekst=[a[0],a[1],a[-2],a[-1]]
+''.join(nowy_tekst)
+print(nowy_tekst)

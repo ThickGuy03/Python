@@ -1,7 +1,6 @@
-'''import builtins
-dir(builtins)
-help(print)'''
-print("Ala ma kota")
-print(2+2)
-print(2**5,'\t',35//2,'\t',35/2,'\t',35%2)
-print(2**5,'\n',35//2,'\n',35/2,'\n',25%2)
+a=input()
+for i in range(0,len(a)):
+    if a[0]==a[i+1]:
+        a[i+1]='$'
+print(a)
+        
