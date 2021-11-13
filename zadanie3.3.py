@@ -4,11 +4,13 @@ b=int(input("Podaj wartość parametru b: "))
 c=int(input("Podaj wartość parametru c: "))
 x1=0.0
 x2=0.0
-delta=b^2-4*a*c
+delta=(b^2)-(4*a*c)
 print(delta)
-if sqrt(delta)<0:
+if a==0:
+    print("Podane równanie nie jest kwadratowe")
+elif delta<0:
     print("brak rozwiązań")    
-elif sqrt(delta)==0:
+elif delta==0:
     x1=(-b)/2*a
     print(x1)
 else :

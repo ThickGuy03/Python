@@ -1,12 +1,9 @@
-a=list(input("Wprowadź litere alfabetu: ").lower())
+a=input("Wprowadź litere alfabetu: ").lower()
 samogloski=['a','e','i','o','u','y','ą','ę','ó']
-print(type(samogloski))
-print(type(a))
-print(a[0])
 
-if a[0]==samogloski[0:]:
-    print("Podana litera jest samogłoską")
+
+if a in samogloski:
+    print("Litera "+a+" należy samogłosek")
       
 else:
-    print("Podana litera jest spółgłoską")
-        
+    print("Litera "+a+" należy spółgłosek")
